@@ -1,0 +1,22 @@
+{
+  "name": "telegram-user-details-api",
+  "version": "1.0.0",
+  "description": "Telegram User Details API for Vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "telegraf": "^4.15.3",
+    "telegram": "^2.19.10",
+    "input": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
